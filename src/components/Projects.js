@@ -9,8 +9,9 @@ const Projects = () => {
   { title: "Expense Tracker", link: "", github: "https://github.com/Sijadkhan1678/Expense_Tracker_App" },
   { title: "Shoe-Store", link: "http://shoesstore2022.surge.sh/", github: "https://github.com/Sijadkhan1678/Shoe_Store" },
   { title: "Red-Quen", link: "https://redqueen-2022.surge.sh/", github: "https://github.com/Sijadkhan1678/RedQueen" },
-  { title: "Tiny Short animation website", link: "http://ecommorce.surge.sh/", github: "https://github.com/Sijadkhan1678/Animated-Website" }, { title: "", links: "", github },
-  { title: "Quezzy App", link: "http://quizy.surge.sh/", github:"https://github.com/Sijadkhan1678/QuizAPP" },
+  { title: "Tiny Short animation website", link: "http://ecommorce.surge.sh/", github: "https://github.com/Sijadkhan1678/Animated-Website" },
+  //{ title: "", links: "", github },
+  { title: "Quizzy App", link: "http://quizy.surge.sh/", github:"https://github.com/Sijadkhan1678/QuizAPP" },
   { title: "Stop Watch", link: "http://stop-watch6.surge.sh/", github: "https://github.com/Sijadkhan1678/Stop_Watch" },
   {title:"Expense Tracker With Typscript", link: "http://expensetrkr.surge.sh/",github:"https://github.com/Sijadkhan1678/Expense_Tracker_App"},
   {title:"SpaceX",link:"",github:"https://github.com/Sijadkhan1678/SpaceX"},
@@ -26,7 +27,7 @@ const Projects = () => {
 
   return (
     <>
-      <h3>Projects</h3>
+      <h3>Projects List</h3>
       <ul>
 
 
@@ -37,4 +38,4 @@ const Projects = () => {
   )
 }
 
-expo
+export default Projects
