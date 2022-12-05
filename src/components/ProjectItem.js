@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const ProjectItem = () => {
+export const ProjectItem = ({project}) => {
+
+ const {title,link,github} = project
   return (
     <li>
-        <a href="" target="_blank"></a>
+        <a href={link} target="_blank">{title}</a>
+        <a href={github} target="_blank">Github</a>
     </li>
   )
 }
