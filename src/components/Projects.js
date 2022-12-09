@@ -1,4 +1,5 @@
 import React from 'react'
+import {Grid,Typography,Box} from '@mui/material'
 import ProjectItem from "./ProjectItem"
 
 
@@ -26,15 +27,20 @@ const Projects = () => {
 
 
   return (
-    <>
-      <h3>Projects List</h3>
-      <ul>
+    <Box width='100%'  mt={7} sx={{flexGrow:1}} >
+    <Typography variant='h3' fontWeight="200" component='p' m={3.5}>Projects</Typography>
+    <Grid container 
+          spacing={3} 
+          direction='row' 
+          justifyContent='space-evenly'>
+
+       <ProjectItem />
+       <ProjectItem />
+       <ProjectItem />
 
 
-     { projects.map( (project) =>  <ProjectItem  project={project} />) }
-
-      </ul>
-    </>
+    </Grid>
+  </Box>
   )
 }
 

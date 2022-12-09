@@ -5,19 +5,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 90%; */
-  margin: 0 auto;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  
+
  
 }
+
 .logo-container {
   background-color: #fff;
+  margin-left: 2rem;
+  
 
 }
 
 .nav-items {
   /* background-color: white; */
-  margin-left: 5rem;
-  width: 32%;
+  /* margin-left: 5rem; */
+  width: 45%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -25,12 +31,15 @@
 }
 .nav-items li {
   list-style: none;
+  margin-right: 1rem;
 
 }
 .nav-items li a {
   text-decoration: none;
-  /* color:whitesmoke; */
+  color:black;
 }
+
+
 
 /* li{
   
@@ -39,8 +48,8 @@
   margin-top: 1.3rem; 
 } */
 
-li a {
+/* li a {
   display: inline;
   text-decoration: none;
   
-}
+} */

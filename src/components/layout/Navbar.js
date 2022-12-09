@@ -2,7 +2,9 @@ import React from 'react'
 
  const Navbar = () => {
   return (
-    <header className='nav-container'>
+    <div //style={{backgroundColor:"green"}}
+    >
+          <header className='nav-container'>
       <div className='logo-container'>logo</div>
       
        <ul className='nav-items'>
@@ -13,6 +15,8 @@ import React from 'react'
        </ul>
      
     </header>
+    </div>
+
   )
 }
 
