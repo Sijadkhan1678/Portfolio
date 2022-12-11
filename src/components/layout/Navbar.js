@@ -4,7 +4,7 @@ import React from 'react'
   return (
     <div //style={{backgroundColor:"green"}}
     >
-          <header className='nav-container'>
+          <header className='nav-container' color='white'>
       <div className='logo-container'>logo</div>
       
        <ul className='nav-items'>

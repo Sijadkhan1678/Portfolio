@@ -7,30 +7,32 @@ import Button from '@mui/material/Button'
 
 
 
-const Hero = () => {
+const About = () => {
   
     
   return (
+    <Stack >
 
     <Box sx={{
         // bgcolor: 'red',
         // width: "100%",
-        backgroundImage: `url(${blog})`,
-        backgroundSize: '100%',
-        backgroundRepeat: 'no-repeat',
+      
         // mt: 2,
-        height: { sx: "60px", md: "570px" } 
+         
       }}>
+        <img src="" />
+
+        </Box>
         
          <Box sx={{
 
         pt : { xs:6,md: 13  },
         ml : { xs:1.2, md:7 },
-        height : '450px' 
+        mt: 5
                       
                  }}>
 
-          <Typography variant='h3' color='white' mt={{sm:2,md:9}}>
+          <Typography variant='h3' color='white'>
           I am Full Stack Developer  
             </Typography>
             <br />
@@ -42,8 +44,9 @@ const Hero = () => {
       </Box>
       
 
-    </Box>
+   
+    </Stack>
   )
 
 }
-export default Hero
+export default About
