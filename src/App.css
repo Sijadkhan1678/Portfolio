@@ -15,7 +15,7 @@
 }
 
 .logo-container {
-  background-color: #fff;
+  /* background-color: #fff; */
   margin-left: 2rem;
   
 
@@ -38,9 +38,16 @@
 }
 .nav-items li a {
   text-decoration: none;
-  color:black;
+  color: #fff;
+  transition: all 0.5s;
+}
+.nav-items li a:hover{
+  color: red;
+  border-bottom: 2px solid rgb(255, 49, 49);
 }
 
+
+/* Responsiveness of Navigationbar */
 
 
 /* li{
