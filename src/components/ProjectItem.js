@@ -11,26 +11,26 @@ export const ProjectItem = ({image}) => {
      console.log("spacex image")
   return (
 
-    <Grid item xs={5.4} md={3.5} mt={3}  >
-      <Paper //elevation={6.4} 
-      
-      >
-        {/* <Link to='/blog:${slug}'>     */}
+    <Grid item xs={4.4} md={2.5} mt={2} mb={5} borderRadius="5%" border={0.5} borderColor="gray" //p={1.1}
+     >
+      {/* <Box>    */}
         {/* place Image */}
-        <img src={image ? image : blog} height='300px' width="100%" bgcolor="black" />
+        <img src={image ? image : blog} height='200px' style={{borderTopLeftRadius:'5%',borderTopRightRadius:'5%'}}  width="100%"  />
 
-        <Box pt={2.4} 
-        pl={1.5} 
-        bgcolor="black"
+
+        <Box //pt={2.4} 
+        //pl={1.5} 
+        // bgcolor="black"
+        p={1.5}
          >
 
           <Typography variant='h3'
-            fontWeight='500'
+            fontWeight='300'
             fontSize='1rem'
             color="white"
-            pt="1rem"
+           pt="1rem"
           >
-            Develop and desgin blog website fetch blogs from Contenful CMS and render on UI
+            Blog Webiste
             
             <span style={{paddingTop:'1rem',display:'block',color:'red'}} >
             Techs: Gatsby,Contenful,Netlify
@@ -47,7 +47,8 @@ export const ProjectItem = ({image}) => {
         </Box>
         {/* </Link> */}
 
-      </Paper>
+        {/* </Box> */}
+
     </Grid>
 
   )

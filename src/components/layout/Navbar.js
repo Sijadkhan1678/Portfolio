@@ -3,7 +3,7 @@ import React from 'react'
  const Navbar = () => {
   return (
     <div
-    style={{boxShadow:"0px 5px 5px red"}}  
+    // style={{boxShadow:"0px 5px 5px red"}}  
     >
           <header className='nav-container' color='white' >
       <div className='logo-container'><h2>Sijad <span style={{color: "red"}}>Khan</span></h2></div>

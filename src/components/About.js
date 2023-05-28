@@ -7,6 +7,7 @@ import Button from '@mui/material/Button'
 import sijad from '../images/sijad.jpeg'
 import fab from '../images/fb-icon-1.png'
 import linkedin from '../images/linkedin-icon-1.png'
+import twitter from '../images/twitter-icon-1.png'
  
 // import sijad from '../images/sijad.jpeg'
 // import sijad from '../images/sijad.jpeg'
@@ -16,17 +17,17 @@ const About = () => {
 
 
   return (
-    <Box mt={7.6} borderBottom="2px solid red" pb={2}> 
+    <Box mt={1.6} borderBottom="2px solid red" pb={2}> 
     <Typography variant='h4' color='white' mt={5} ml={11}> About <span style={{color:"red"}}>Me</span> </Typography>
-    <Stack direction={{md:"row",xs:"column"}}  justifyContent="space-evenly" //alignItems="center" 
-    
-    bgcolor='black' px={0.8} mt={6.7} textAlign="center" id="about" //borderBottom={1}
+    <Stack direction={{md:"row",xs:"column"}} mt={2}  justifyContent="space-evenly" 
+    flexGrow={1}
+    bgcolor='black' px={0.8} mt={4} textAlign="center" id="about" //borderBottom={1}
     >
        
       <Box>
-          {/* <img src={sijad} width="250" style={{borderRadius:'50%'}} /> */}
+          <img src={sijad} width="250" style={{borderRadius:'50%'}} />
 
-        <Typography variant='h4' color='white' mt={5}>
+        <Typography variant='h5' color='white' mt={4}>
            Sijad Khan
         </Typography>
 
@@ -61,7 +62,8 @@ const About = () => {
          <a href=''> <img src={fab} width="30" style={{backgroundColor:'white',borderRadius:'50%',marginRight:'1.5rem'}}
           /> </a>
          <a href=''>  <img src={linkedin} width="30" style={{backgroundColor:'white',borderRadius:'50%',marginRight:'1.5rem'}}/></a>
-          <img />
+         <a href=''>  <img src={twitter} width="30" style={{backgroundColor:'white',borderRadius:'50%',marginRight:'1.5rem'}}/></a>
+
           <img />
           
           

@@ -14,7 +14,7 @@ console.log("Project",projects)
     <Box width='95%' m="0 auto"   sx={{flexGrow:1}} mt={12} id="project" mt={14} >
     <Typography variant='h4' fontWeight="180" fontSize={37} component='p' m={3.8}>Portfolio</Typography>
     <Grid container 
-          spacing={2}
+          
            
           direction='row' 
           justifyContent='space-evenly'>
